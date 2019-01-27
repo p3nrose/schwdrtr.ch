@@ -1,2 +1,2 @@
 # schwdrtr
-Website http://schwdrtr.ch
+Website [schwdrtr.ch](http://schwdrtr.ch)
