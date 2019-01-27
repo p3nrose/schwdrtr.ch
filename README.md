@@ -1,2 +1,2 @@
 # schwdrtr
-Website schwdrtr.ch
+Website http://schwdrtr.ch
