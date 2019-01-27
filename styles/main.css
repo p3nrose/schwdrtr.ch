@@ -1,0 +1,202 @@
+/*### Globale Styles ###*/
+
+html , body {
+  font-family: 'europa', sans-serif;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  background-color: white;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 1rem;
+  text-align: center;
+}
+
+header a.title {
+
+}
+
+h1.mix {
+  mix-blend-mode: difference;
+  position: fixed;
+  color: white;
+  left: 50%;
+  margin: 0;
+  top: 39%;
+  transform: rotateY(180deg);
+  font-size: 2.3rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Farbe für den momentan aktiven Link auf der jeweiligen Seite */
+.currentlink {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 1rem;
+  text-align: center;
+}
+
+footer a {
+  cursor: none;
+}
+
+footer a:hover {
+  color: black;
+}
+/*### Globale Styles Ende ###*/
+
+/*### Startseite, Home Styles ###*/
+
+.main-content {
+  /*background-color: red;*/
+  width: 100%;
+  height: 100%;
+}
+
+.slot {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 20rem 20rem;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-color: white;
+}
+
+
+
+/* für farbige Sections
+.white-bg {
+  background-color: white;
+}
+
+.black-bg {
+  background-color: black;
+}*/
+
+/*### Startseite, Home Styles Ende ###*/
+
+
+/*### Archive Styles ###*/
+
+.archive {
+}
+
+.archive-grid {
+  display: grid;
+  width: 100%;
+  grid-gap: 0.4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 20rem;
+  height: 20rem;
+  overflow-y: overlay;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.archive-item {
+}
+
+.archive-item > img {
+  width: 6.4rem;
+  height: 6.4rem;
+  object-fit: cover;
+}
+
+
+
+/*### Archive Styles Ende ###*/
+
+/*### Music Seite ###*/
+
+.soundcloud {
+  width: 20rem;
+  height: 20rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*### Music Seite Ende ###*/
+
+.text {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slot p {
+  margin: 0;
+}
+
+/* TESTING mix-blend-mode */
+/*
+.test {
+  width: 100%;
+  height: 100%;
+}
+
+.test h1 {
+  text-align: center;
+  margin: 0;
+  position: fixed;
+  mix-blend-mode: difference;
+}
+
+.test div {
+  width: 100%;
+  height: 100%;
+}
+
+.test div.black {
+  background-color: black;
+}
+*/
+
+@media only screen and (max-width: 600px) {
+  .slot {
+    background-attachment: initial;
+  }
+}

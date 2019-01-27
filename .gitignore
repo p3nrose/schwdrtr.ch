@@ -1,0 +1,6 @@
+#ignore packages
+*.zip
+*.rar
+
+#logsfiles
+.*.log

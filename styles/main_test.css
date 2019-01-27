@@ -1,0 +1,87 @@
+html , body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 1rem;
+  text-align: center;
+  z-index: 999;
+}
+
+header a.title {
+
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+
+.img-site {
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: url('../images/mask.png');
+  mask-type: alpha;
+  /*border: 1px solid black;*/
+}
+
+.img-site .bild {
+  width: 200rem;
+  height: 200rem;
+  background-size: cover;
+  background-attachment: fixed;
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+/*.img-site img {
+  width: 100%;
+  height: 100%;
+}
+*/
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 1rem;
+  text-align: center;
+  z-index: 999;
+}
+
+footer a {
+  cursor: none;
+}
+
+footer a:hover {
+  color: black;
+}
